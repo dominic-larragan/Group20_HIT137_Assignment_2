@@ -6,9 +6,10 @@ This repository contains the group submission for HIT137 Assignment 2.
 All work has been developed collaboratively and tracked using GitHub version control, as required by the assignment brief.
 
 
-Repository Structure
+##Repository Structure
 
-.
+```text
+HIT137-Assignment-2/
 ├── question_1/
 │   ├── text_encryption.py
 │   ├── raw_text.txt
@@ -29,7 +30,7 @@ Repository Structure
 └── README.md
 
 
-Question 1 – Text Encryption and Decryption
+##Question 1 – Text Encryption and Decryption
 
 This program reads text from raw_text.txt, encrypts it using a rule-based character shifting algorithm, writes the encrypted result to encrypted_text.txt, then decrypts the content back into decrypted_text.txt.
 
@@ -39,7 +40,7 @@ How to run:
 python question_1/text_encryption.py
 
 
-Question 2 – Australian Temperature Data Analysis
+##Question 2 – Australian Temperature Data Analysis
 
 This program processes multiple CSV files containing temperature data from Australian weather stations.
 
@@ -54,7 +55,7 @@ How to run:
 python question_2/temperature_analysis.py
 
 
-Question 3 – Recursive Turtle Graphics Pattern
+##Question 3 – Recursive Turtle Graphics Pattern
 
 This program uses Python's turtle graphics module and recursion to generate a geometric pattern based on user-defined parameters.
 
@@ -67,7 +68,7 @@ How to run:
 python question_3/turtle_pattern.py
 
 
-Notes
+##Notes
 - All programs are written in Python 3
 - The repository is public as required by the assignment
 - Contributions from all group members are tracked via GitHub commit history
